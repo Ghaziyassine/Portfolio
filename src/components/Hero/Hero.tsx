@@ -57,7 +57,7 @@ export function Hero() {
           <img src={instagramIcon} alt="Instagram" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me/+212645708872"
           target="_blank"
           rel="noreferrer"
         >
