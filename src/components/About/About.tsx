@@ -12,7 +12,6 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
-
 export function About() {
   return (
     <Container id="about">
@@ -24,7 +23,7 @@ export function About() {
           <p>
             Hi there! I'm Yassine, an IT engineer with a passion for creating dynamic online experiences. I leverage powerful frameworks like React and Spring Boot to build modern web applications with a focus on user experience.          </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
             For mobile development, I'm proficient in both native and cross-platform approaches. I can develop high-performance Android apps using Java, and I'm comfortable with React Native and Flutter for cross-platform solutions.
           </p>
@@ -35,7 +34,7 @@ export function About() {
             So, whether you need a custom web application, a mobile app for Android or a cross-platform solution, I have the skills and experience to bring your vision to life. Let's discuss your project and see how I can help!            </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -77,6 +76,8 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+
+            
         </div>
       </div>
       <div className="about-image">

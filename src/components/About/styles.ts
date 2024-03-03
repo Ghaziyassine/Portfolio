@@ -1,14 +1,6 @@
 import styled from "styled-components";
 
 
- 
-
-
-
-
-
-
-
 export const Container = styled.section`
   margin-top: 12rem;
   display: grid;
@@ -17,6 +9,7 @@ export const Container = styled.section`
   .round-image {
     border-radius: 50%;
   }
+  
   .simple-icons--springboot {
     display: inline-block;
     width: 2em;
@@ -126,7 +119,7 @@ export const Container = styled.section`
           filter: grayscale(0);
         }
     }
-    
+  
     
   }
 
