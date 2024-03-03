@@ -9,6 +9,7 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 3rem;
   }
+ 
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

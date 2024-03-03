@@ -22,16 +22,17 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Yassine, an IT engineer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
-          </p>
+            Hi there! I'm Yassine, an IT engineer with a passion for creating dynamic online experiences. I leverage powerful frameworks like React and Spring Boot to build modern web applications with a focus on user experience.          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+            For mobile development, I'm proficient in both native and cross-platform approaches. I can develop high-performance Android apps using Java, and I'm comfortable with React Native and Flutter for cross-platform solutions.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+            My database expertise spans relational (MySQL) and NoSQL (MongoDB) technologies, allowing me to choose the best fit for each project's needs.
+            So, whether you need a custom web application, a mobile app for Android or a cross-platform solution, I have the skills and experience to bring your vision to life. Let's discuss your project and see how I can help!            </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -41,7 +42,7 @@ export function About() {
           <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
             <div className="simple-icons--springboot"></div>
           </ScrollAnimation>
-    
+
           <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
             <div className="devicon--java"> </div>
           </ScrollAnimation>
@@ -56,8 +57,8 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-         
-       
+
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={htmlIcon} alt="Html" />
