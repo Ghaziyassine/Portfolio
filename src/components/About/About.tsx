@@ -76,8 +76,12 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
-
-            
+          <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <div className="logos--mysql"></div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+          <div className="skill-icons--mongodb"></div>
+          </ScrollAnimation>
         </div>
       </div>
       <div className="about-image">
