@@ -28,11 +28,7 @@ export function About() {
             For mobile development, I'm proficient in both native and cross-platform approaches. I can develop high-performance Android apps using Java, and I'm comfortable with React Native and Flutter for cross-platform solutions.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            My database expertise spans relational (MySQL) and NoSQL (MongoDB) technologies, allowing me to choose the best fit for each project's needs.
-            So, whether you need a custom web application, a mobile app for Android or a cross-platform solution, I have the skills and experience to bring your vision to life. Let's discuss your project and see how I can help!            </p>
-        </ScrollAnimation>
+       
 
         <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
