@@ -30,7 +30,8 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>spring Boot</li>
+                <li>Spring Boot</li>
+                <li>MySQL</li>
                 <li>Swagger</li>
 
               </ul>
@@ -43,21 +44,24 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/Ghaziyassine/Projet-SpringBoot_React/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Ghaziyassine/AbsenceENSAJ" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Farms management</h3>
+              <h3>Unified Absence Management Platform</h3>
               <p>
-                This web application, built with React, Spring Boot, and MySQL, empowers farm management. Users can sign up, manage farms, plots, and plants, even track planting history. Administrators can manage users, plant types, and access statistics. This comprehensive platform simplifies farm operations.              </p>
+                The project offers a seamless attendance management system by combining a mobile app for real-time authentication, Google Apps Script for automated data recording, and a dynamic web platform for attendance monitoring and analysis. This integrated approach enhances the experience for students and educators alike, providing efficient attendance tracking and insightful data for informed decision-making in educational institutions.
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Spring Boot</li>
-                <li>React</li>
-                <li>MySQL</li>
+                <li>Google apps srcipt</li>
+                <li>java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
               </ul>
             </footer>
           </div>
@@ -68,15 +72,15 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/Ghaziyassine/Pokedex_ReactNativeGame/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Ghaziyassine/Movies-App" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3> POKEDEX</h3>
+              <h3> Movies App</h3>
               <p>
-                A mobile application built using React Native that allows users to search and browse information about Pokemon. The app makes use of the PokeAPI to fetch data about Pokemon and display them to the user.              </p>
+                It's a React Native mobile app that lets users search for movies and find nearby cinemas. It uses the TMDb API to fetch movie data and the Google Places API to locate cinemas. Users can enter movie search queries and view movie details, including trailers. They can also search for cinemas near their location and view them on a map.is a React Native mobile app that lets users search for movies and find nearby cinemas. It uses the TMDb API to fetch movie data and the Google Places API to locate cinemas. Users can enter movie search queries and view movie details, including trailers. They can also search for cinemas near their location and view them on a map.                    </p>
             </div>
             <footer>
               <ul className="tech-list">
@@ -129,6 +133,8 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>java</li>
+                <li>Firebase</li>
+
               </ul>
             </footer>
           </div>
@@ -139,21 +145,22 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/Ghaziyassine/projet-springboot-thymeleaf/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Ghaziyassine/Covid-Tracker" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Machine assignments to employees</h3>
+              <h3>Covid Tracker</h3>
               <p>
-                Developed a user-friendly application using Thymeleaf and Spring Boot to streamline machine assignments to employees.              </p>
+                CovidTracker is a cross-platform mobile application developed using Flutter and Firebase, designed to help users track potential exposure to COVID-19. By leveraging Google Maps for geolocation services, the app allows users to input their recent locations and receive notifications if they have been in close proximity to someone who later tests positive for the virus.        
+               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Spring boot</li>
-                <li>Thymeleaf</li>
-                <li>MySQL</li>
+                <li>FLutter</li>
+                <li>Firebase</li>
+                <li>Google Maps API</li>
               </ul>
             </footer>
           </div>
@@ -188,21 +195,20 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://github.com/Ghaziyassine/projet-jsf/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Ghaziyassine/E-commerce-App" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Employees and Services Management</h3>
+              <h3>Fashion Cube-Ecommerce Application</h3>
               <p>
-                This project aims to create a web application for managing employees and services with advanced features such as adding, modifying, and deleting employees and services. It uses JavaServer Faces (JSF) with PrimeFaces to provide an interactive user interface.              </p>
+              Front-end React.js developer at Fashion Cube, leading the creation of an immersive e-commerce platform blending technology and fashion trends. Leveraged React.js, Redux, Sass, and react-bootstrap to design a sleek interface showcasing diverse products. Implemented features like detailed product pages and personalized recommendations for tailored shopping experiences. Utilized monorepo structure and Lerna for scalability and efficiency. Contributed to refining user experience, helping Fashion Cube become a top choice for fashion-forward consumers.              </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>java</li>
-                <li>JSF</li>
-                <li>MySQL</li>
+                <li>React Js</li>
+              
 
               </ul>
             </footer>
