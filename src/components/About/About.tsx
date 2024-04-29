@@ -28,14 +28,15 @@ export function About() {
             For mobile development, I'm proficient in both native and cross-platform approaches. I can develop high-performance Android apps using Java, and I'm comfortable with React Native and Flutter for cross-platform solutions.
           </p>
         </ScrollAnimation>
-       
+
 
         <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-            <div className="simple-icons--springboot"></div>
+            <div className="simple-icons--springboot">
+            </div>
           </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
@@ -72,14 +73,22 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+
+          <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <div className="skill-icons--flutter-light"></div>
+          </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
             <div className="logos--mysql"></div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-          <div className="skill-icons--mongodb"></div>
+            <div className="skill-icons--mongodb"></div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+          <div className="logos--firebase"></div>
           </ScrollAnimation>
         </div>
       </div>
+
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
           <img src={VinayakSingh} alt="Vinayak Singh" className="round-image" />

@@ -58,9 +58,6 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>Google apps srcipt</li>
-                <li>java</li>
-                <li>HTML</li>
-                <li>CSS</li>
                 <li>JavaScript</li>
               </ul>
             </footer>
@@ -80,7 +77,8 @@ export function Project() {
             <div className="body">
               <h3> Movies App</h3>
               <p>
-                It's a React Native mobile app that lets users search for movies and find nearby cinemas. It uses the TMDb API to fetch movie data and the Google Places API to locate cinemas. Users can enter movie search queries and view movie details, including trailers. They can also search for cinemas near their location and view them on a map.is a React Native mobile app that lets users search for movies and find nearby cinemas. It uses the TMDb API to fetch movie data and the Google Places API to locate cinemas. Users can enter movie search queries and view movie details, including trailers. They can also search for cinemas near their location and view them on a map.                    </p>
+                It's a React Native mobile app that lets users search for movies and find nearby cinemas. It uses the TMDb API to fetch movie data and the Google Places API to locate cinemas. Users can enter movie search queries and view movie details, including trailers. They can also search for cinemas near their location and view them on a map.
+                               </p>
             </div>
             <footer>
               <ul className="tech-list">
@@ -203,7 +201,8 @@ export function Project() {
             <div className="body">
               <h3>Fashion Cube-Ecommerce Application</h3>
               <p>
-              Front-end React.js developer at Fashion Cube, leading the creation of an immersive e-commerce platform blending technology and fashion trends. Leveraged React.js, Redux, Sass, and react-bootstrap to design a sleek interface showcasing diverse products. Implemented features like detailed product pages and personalized recommendations for tailored shopping experiences. Utilized monorepo structure and Lerna for scalability and efficiency. Contributed to refining user experience, helping Fashion Cube become a top choice for fashion-forward consumers.              </p>
+              Fashion Cube is an e-commerce application developed using React.js for the front-end part. It is an online shopping platform designed with modern web technologies.
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
