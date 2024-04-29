@@ -9,7 +9,13 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 3rem;
   }
- 
+  .body {
+    max-width: 80%;
+    margin: 0 auto; /* This centers the div horizontally */
+    text-align: center; /* This centers the text */
+  }
+  
+  
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
