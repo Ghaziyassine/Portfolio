@@ -9,6 +9,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
+import { IconCloudDemo } from "../magicui/IconCloudDemo"; // Use relative path
 
 export function Hero() {
   return (
@@ -23,7 +24,7 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h2>What  can I do ?</h2>
         </ScrollAnimation>
-        
+
         <div style={{ display: 'flex' }}>
           <ScrollAnimation animateIn="flipInX">
             <div className="project">
@@ -43,7 +44,12 @@ export function Hero() {
                   <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                 </svg>
               </header>
-              <div className="body">
+              <div
+                className="body"
+                style={{
+                  width: '300px', // Adjust the size as needed
+
+                }}>
                 <h3>Web Development</h3>
                 <p>Leveraging the latest web technologies and frameworks and ensure a responsive and highly functional websites that engage users.</p>
               </div>
@@ -67,7 +73,11 @@ export function Hero() {
                   <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                 </svg>
               </header>
-              <div className="body">
+              <div className="body"
+                style={{
+                  width: '300px', // Adjust the size as needed
+                  margin:'10px'
+                }}>
                 <h3>Mobile Development</h3>
                 <p>Deliver high-quality, cross-platform solutions that offer seamless user experiences. From design to deployment.</p>
               </div>
@@ -124,10 +134,14 @@ export function Hero() {
       </div>
 
 
-      <div className="hero-image">
+      {/* <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
         </ScrollAnimation>
+      </div> */}
+
+      <div className="container">
+        <IconCloudDemo />
       </div>
 
     </Container>
