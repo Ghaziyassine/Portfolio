@@ -45,7 +45,22 @@ export const Container = styled.section`
     margin-top: 5rem;
     padding: 1.4rem 6rem;
   }
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media only screen and (max-width:1110px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+@media only screen and (max-width:700px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
   .hero-image{
     img{
       max-width: 500px;

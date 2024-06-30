@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     &.light {
       body {
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: #dbd5d5;
         color: var(--black);
       }
 

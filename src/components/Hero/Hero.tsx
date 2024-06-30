@@ -1,11 +1,9 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/logo.png"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
@@ -22,10 +20,10 @@ export function Hero() {
           <h1>GHAZI YASSINE</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h2>What  can I do ?</h2>
+          <h2>What can I do ?</h2>
         </ScrollAnimation>
 
-        <div style={{ display: 'flex' }}>
+        <div className="container">
           <ScrollAnimation animateIn="flipInX">
             <div className="project">
               <header>
@@ -140,7 +138,7 @@ export function Hero() {
         </ScrollAnimation>
       </div> */}
 
-      <div className="container">
+      <div >
         <IconCloudDemo />
       </div>
 
