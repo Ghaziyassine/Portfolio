@@ -58,7 +58,7 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>Google apps srcipt</li>
-                <li>JavaScript</li>
+                <li>HTML</li>
               </ul>
             </footer>
           </div>
