@@ -1,6 +1,6 @@
 # Portfolio of GHAZI YASSINE
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+![image](https://github.com/Ghaziyassine/Portfolio/assets/114885285/d76e67d1-7b8f-4ed2-b0e6-0ca1debff6b6)
  
 This project was created with CRA (Create React App)
 
